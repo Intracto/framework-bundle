@@ -1,0 +1,19 @@
+{
+    "name": "kingfoo/framework-bundle",
+    "license": "MIT",
+    "type": "symfony-bundle",
+    "autoload": {
+        "psr-4": {
+            "KingFoo\\FrameworkBundle\\": ""
+        }
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "symfony/symfony": "^2.7|^3.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0-dev"
+        }
+    }
+}
